@@ -1,3 +1,18 @@
+/*
+
+1. 
+2. 
+3.
+4. Contrast this situation with the recursive tree functions that we have studied
+(e.g., size and height) which needed to examine BOTH subtrees to compute their
+answers. We found that in these cases, we must do two recursive calls inside
+such functions, always recurring both in the left and to the right. For
+searching in a BST, we must examine at most one subtree of a node (left OR
+right) based on a comparison at the root of a subtree, so we can write a search
+function iteratively.
+
+*/
+
 class BinarySearchTree {
     constructor(key = null, value = null, parent = null) {
         this.key = key;
